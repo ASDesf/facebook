@@ -1,0 +1,79 @@
+/* Grundlegendes Styling */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  direction: rtl; /* Rechts-nach-Links */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container fürs Login-Formular */
+.login-container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 320px;
+  text-align: right;
+}
+
+/* Überschrift */
+.login-container h3 {
+  margin-bottom: 25px;
+  color: #4267B2; /* Facebook-Blau */
+  font-weight: bold;
+  font-size: 22px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Eingabefelder */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4267B2;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #365899;
+}
+
+/* Fehlermeldungen / Erfolgsmeldungen */
+#resultMessage {
+  margin-top: -12px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  min-height: 20px; /* Platz halten, auch wenn leer */
+}
+p{
+  
+}
